@@ -1,0 +1,1 @@
+# Add urls or parts of them to exclude them from the export. one url per line. Remove this line afterwards.

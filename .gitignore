@@ -1,0 +1,4 @@
+*.csv
+*.json
+.env
+exclusion_patterns.txt
