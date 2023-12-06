@@ -2,10 +2,13 @@ import csv
 import re
 import json
 import os
+from dotenv import load_dotenv
 from slack_sdk import WebClient
 from slack_sdk.errors import SlackApiError
 from datetime import datetime
-import html  # Used for decoding HTML entities
+import html
+
+load_dotenv()
 
 # Configuration
 slack_token = os.getenv('SLACK_TOKEN')  # Replace with your Slack token from .env
